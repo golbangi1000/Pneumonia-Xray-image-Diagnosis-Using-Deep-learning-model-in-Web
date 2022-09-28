@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE  mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="xray_data">
+<insert id="insert" parameterType="hashMap" useGeneratedKeys="true" keyProperty="Xray_no">  
+    <![CDATA[
+    insert into xray_data
+    (member_Id, Image_path) 
+    values
+    ( #{member_Id}, #{Image_path})
+    ]]>
+</insert>
+
+<select id="list" parameterType="hashMap" resultType="hashMap">
+    <![CDATA[
+        select Xray_no ,member_Id, Image_path, Upload_date
+        from xray_data
+        where member_Id = #{member_Id}
+    ]]>
+</select>
+
+</mapper>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE  mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="member">
+<insert id="insert" parameterType="hashMap" useGeneratedKeys="true" keyProperty="member_no">  
+    <![CDATA[
+    insert into member
+    (member_name, member_Id, member_Pwd, age, email) 
+    values
+    (#{member_name}, #{member_Id}, #{member_Pwd},#{age},#{email})
+    ]]>
+</insert>
+
+<select id="login" parameterType="hashMap" resultType="hashMap">
+    <![CDATA[
+        select member_Id, member_Pwd
+        from member
+        where member_Id = #{member_Id}   
+        and member_Pwd = #{member_Pwd}
+    ]]>
+</select>
+
+</mapper>
