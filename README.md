@@ -21,6 +21,18 @@ Journal Title: Visualization of pneumonia affected area by showing activation us
 
 ![image](https://user-images.githubusercontent.com/75931184/192773303-e706c6b0-6cfd-4276-8660-4b95baf080ea.png)
 
-8. Deep learning Model Result: 
+8. Deep learning ResNet Model Performance: 
+
+![image](https://user-images.githubusercontent.com/75931184/192773841-57065df1-9b87-4b54-b6fb-2487b5743cb5.png)
+
+
+8. Deep learning Unet Model Performance and Result:
+
+![image](https://user-images.githubusercontent.com/75931184/192773685-73857eb0-f58a-4399-b4d8-4573aac8dd43.png)
+ 
+![image](https://user-images.githubusercontent.com/75931184/192773900-b2b0e366-3c82-45e8-81d5-9d363fd8cbc3.png)
+
+
+8. Deep learning Model Result in Web: 
 
 ![image](https://user-images.githubusercontent.com/75931184/192773013-eea8f63e-b67a-48bd-9f92-67e67159edff.png)
