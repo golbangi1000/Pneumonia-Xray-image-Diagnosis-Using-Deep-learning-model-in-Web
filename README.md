@@ -1,5 +1,6 @@
 # Pneumonia Xray image Diagnosis Using Deep learning model in Web 
- Visualization of pneumonia affected area by showing activation using unet and classifying pneumnoia using resnet
+
+## Journal Title: Visualization of pneumonia affected area by showing activation using unet and classifying pneumnoia using resnet
 
 
 1. 프로젝트 진행기관 : Surrey Univ.
